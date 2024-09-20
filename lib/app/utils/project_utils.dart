@@ -17,11 +17,66 @@ class ProjectUtils {
 
 List<ProjectUtils> projectUtils = [
   ProjectUtils(
+    banners: 'assets/imgs/23.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'Nervus',
+    description:
+        'Spread kindness everyday. Capture, verify, and inspire positivity worldwide.',
+    links: 'com.vigortechapp.nervus',
+  ),
+  ProjectUtils(
+    banners: 'assets/imgs/11.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'Storyy Preference Page',
+    description:
+        'A multiplatform app (WEB,ANDRIOD,IOS) Storyy puts a media company in the pocket of content creators.',
+    links: 'https://apps.apple.com/us/app/storyy/id1615063445',
+  ),
+  ProjectUtils(
+    banners: 'assets/imgs/22.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'Rybble',
+    description:
+        'Rybble is the new age random chat application. Its next generation algorithm helps people connect with the ones they want to connect with.',
+    links: 'https://play.google.com/store/apps/details?id=chat.rybble',
+  ),
+  ProjectUtils(
+    banners: 'assets/imgs/18.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'ProTrader Web3 App',
+    description:
+        'A web3 application for web and mobile that help automate investments on cryptocurrency using blockchain technology 🪙🪙🪙🧑🏽‍💻📈📊',
+    links: 'https://trader.bizza.io',
+  ),
+  ProjectUtils(
+    banners: 'assets/imgs/19.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'Macanacki (Social networking)',
+    description:
+        'A social app, where connection meets simplicity. The app brings people together in a seamless and intuitive way.',
+    links: 'https://apps.apple.com/us/app/macanacki/id6448659521',
+  ),
+  ProjectUtils(
+    banners: 'assets/imgs/20.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'FinddAny',
+    description:
+        'A gas ⛽️ purchasing and e-commerce platform for a specific region.',
+    links: 'https://shopingyou-64e8e.web.app/',
+  ),
+  ProjectUtils(
+    banners: 'assets/imgs/21.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'Motorvelox',
+    description: 'A web application for car servicing and planning.',
+    links: 'https://bellator-imperium.web.app/#/',
+  ),
+  ProjectUtils(
     banners: 'assets/imgs/15.png',
     icons: 'assets/imgs/flutter.png',
     titles: 'ShopUrban App',
     description:
-        'My Task and Contribution to this project was to develop the front-end and integrate the necessary api, Click to download and preview app from playstore.',
+        'An ecommerce window shopping and product searching app, Click to download and preview app from playstore.',
     links: 'https://play.google.com/store/apps/details?id=com.shopurban.co',
   ),
   ProjectUtils(
@@ -29,55 +84,45 @@ List<ProjectUtils> projectUtils = [
     icons: 'assets/imgs/flutter.png',
     titles: 'Awesome Dating Application',
     description:
-        'My task was to build both front-end and backend(firebase), Click to download and preview app from playstore.',
-    links: 'https://play.google.com/store/apps/details?id=com.tlptech.uni_dating',
+        'A dating application , Click to download and preview app from playstore.',
+    links: gitHub,
   ),
   ProjectUtils(
     banners: 'assets/imgs/13.png',
     icons: 'assets/imgs/flutter.png',
     titles: 'Business management and Full Inventory App',
     description:
-        'My Task and Contribution to this project was to develop the front-end using a webView, Click to download and preview app from playstore.',
-    links: 'https://play.google.com/store/apps/details?id=com.shopurbanvendor.co',
+        'An inventory application, Click to download and preview app from playstore.',
+    links:
+        'https://play.google.com/store/apps/details?id=com.shopurbanvendor.co',
   ),
   ProjectUtils(
     banners: 'assets/imgs/12.jpg',
     icons: 'assets/imgs/flutter.png',
     titles: 'Awesome Ecommerce Application',
-    description:
-        'Task was to design and develop full app frontend and backend(firebase),Click to download and preview app from playstore.',
-    links: 'https://play.google.com/store/apps/details?id=com.tlptech.splashscreen',
+    description: 'Ecommerce ,Click to download and preview app from playstore.',
+    links: gitHub,
   ),
-    ProjectUtils(
+  ProjectUtils(
     banners: 'assets/imgs/16.png',
     icons: 'assets/imgs/flutter.png',
     titles: 'Awesome Food App',
-    description:
-        'Personal Project. Task was to design and develop the UI ,Click to see source-code.',
+    description: 'Food delivery ui,Click to see source-code.',
     links: gitHub,
   ),
-    ProjectUtils(
+  ProjectUtils(
     banners: 'assets/imgs/17.png',
     icons: 'assets/imgs/flutter.png',
     titles: 'Awesome Court Moderation App',
     description:
-        'Personal Project. Task was to design and develop a speech to text moderation application ,Click to see source-code',
+        'A speech to text moderation application ,Click to see source-code',
     links: gitHub,
-  ),
-  ProjectUtils(
-    banners: 'assets/imgs/11.png',
-    icons: 'assets/imgs/flutter.png',
-    titles: 'Storyy Preference Page',
-    description:
-        'My Task was to work on the company preference page, Developed using flutter, Click to preview.',
-    links: 'https://storyy.co/',
   ),
   ProjectUtils(
     banners: 'assets/imgs/5.png',
     icons: 'assets/imgs/flutter.png',
     titles: 'Awesome Findd Landing page',
-    description:
-        'My task was to code a fully functional WebApp Landing page using flutter, Click to preview.',
+    description: 'Basic Landing page (speed code), Click to preview.',
     links: 'https://vigortechapp.com/#/Tech',
   ),
   ProjectUtils(
@@ -85,23 +130,21 @@ List<ProjectUtils> projectUtils = [
     icons: 'assets/imgs/flutter.png',
     titles: 'Amazing Trading Robot Platform',
     description:
-        'My task was to code a fully functional WebApp with a payment gateway using flutter, Click to preview.',
+        'functional WebApp with a payment gateway using flutter, Click to preview.',
     links: 'https://hexaplatform.web.app/',
   ),
   ProjectUtils(
     banners: 'assets/imgs/7.png',
     icons: 'assets/imgs/flutter.png',
     titles: 'Beautiful Logistics Landing Page UI',
-    description:
-        'My task was to code a fully functional WebApp  Developed using flutter, Click to preview.',
+    description: 'Logistic landing page (speed code), Click to preview.',
     links: 'https://wishway-30ec0.web.app/#/',
   ),
   ProjectUtils(
     banners: 'assets/imgs/9.png',
     icons: 'assets/imgs/flutter.png',
     titles: 'Beautiful Food Delivery Landing Page UI',
-    description:
-        'My task was to code a fully functional WebApp  Developed using flutter, Click to preview.',
+    description: 'Landing page ui , Click to preview.',
     links: 'https://chowapp-13583.web.app/#/',
   ),
   ProjectUtils(
@@ -109,14 +152,7 @@ List<ProjectUtils> projectUtils = [
     icons: 'assets/imgs/hexaweb.JPG',
     titles: 'Hexave',
     description:
-        'My task was to code a fully functional WebApp  for finiancial investment. Developed using Flutter and Firebase',
-    links: 'https://hexave.com/',
-  ),
-  ProjectUtils(
-    banners: 'assets/imgs/10.png',
-    icons: 'assets/imgs/flutter.png',
-    titles: 'VigorTech Landing Page',
-    description: 'My task was to code a fully functional WebApp Landing Page  Developed using flutter, Click to preview.',
-    links: 'https://vigortechapp.com/#/',
+        'A fully functional WebApp  for finiancial investment. Developed using Flutter and Firebase',
+    links: 'https://vtraders-d00fb.web.app/#/',
   ),
 ];

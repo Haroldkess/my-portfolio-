@@ -70,16 +70,16 @@ class _ZoomAnimationsState extends State<ZoomAnimations>
           padding: const EdgeInsets.all(5),
           width: size.width * sizeAnimation.value,
           height: size.width * sizeAnimation.value,
-          gradient:  LinearGradient(
+          gradient: LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
-               colors:  [
- theme.secondaryColor,
-         //    theme.secondaryColor.withOpacity(0),
+              colors: [
+                theme.secondaryColor,
+                //    theme.secondaryColor.withOpacity(0),
                 Colors.black,
-                 Colors.black,
-                  Colors.black,
-          //         Colors.black,
+                Colors.black,
+                Colors.black,
+                //         Colors.black,
                 // theme.secondaryColor,
                 // theme.secondaryColor.withOpacity(0),
                 // theme.primaryColor.withOpacity(0.1),
@@ -96,9 +96,9 @@ class _ZoomAnimationsState extends State<ZoomAnimations>
               shape: BoxShape.circle,
               color: Colors.black.withOpacity(0.8),
               image: const DecorationImage(
-         //       fit: BoxFit.fill,
+                //       fit: BoxFit.fill,
                 alignment: Alignment.center,
-                image: AssetImage('assets/imgs/Dev2.jpg'),
+                image: AssetImage('assets/imgs/Dev2.png'),
               ),
             ),
           ),

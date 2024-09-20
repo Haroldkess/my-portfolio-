@@ -40,10 +40,12 @@ class _ServiceCardState extends State<_ServiceCard> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SvgPicture.asset(
-              widget.service.icon,
-              height: 60,
-            ),
+            widget.service.name == "Flutter"
+                ? const FlutterLogo(size: 60)
+                : SvgPicture.asset(
+                    widget.service.iconFlutter,
+                    height: 60,
+                  ),
             Space.y(3.w)!,
             Text(widget.service.name,
                 textAlign: TextAlign.center,
@@ -51,78 +53,16 @@ class _ServiceCardState extends State<_ServiceCard> {
                   color: isHover ? whiteColor : theme.textColor,
                 )),
             Space.y(1.w)!,
-            Text(
-              widget.service.description,
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                color: isHover ? whiteColor.withOpacity(0.8) : theme.textColor,
-                fontWeight: FontWeight.w200,
-                fontSize: 13,
-              ),
-            ),
+            // Text(
+            //   widget.service.description,
+            //   textAlign: TextAlign.center,
+            //   style: TextStyle(
+            //     color: isHover ? whiteColor.withOpacity(0.8) : theme.textColor,
+            //     fontWeight: FontWeight.w200,
+            //     fontSize: 13,
+            //   ),
+            // ),
             Space.y(2.w)!,
-            if (Responsive.isDesktop(context))
-              Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: widget.service.tool
-                      .map((e) => Row(
-                            children: [
-                              SvgPicture.asset(
-                                e == 'Flutter'
-                                    ? 'assets/icons/flut.svg'
-                                    : e == 'Api integration'
-                                        ? 'assets/icons/api.svg'
-                                        : 'assets/icons/firebase.svg',
-                                color: e == 'Flutter'
-                                    ? Colors.blue
-                                    : e == 'Api integration'
-                                        ? Colors.white
-                                        : Colors.yellow,
-                                height: 20,
-                                width: 15,
-                              ),
-                              const SizedBox(width: 5,),
-                              Text(e,
-                                  style: TextStyle(
-                                    color:
-                                        isHover ? whiteColor : theme.textColor,
-                                  )),
-                            ],
-                          ))
-                      .toList()),
-            if (Responsive.isMobile(context) || Responsive.isTablet(context))
-              Expanded(
-                child: ListView(
-                    padding: EdgeInsets.zero,
-                    shrinkWrap: true,
-                    children: widget.service.tool
-                        .map((e) => Row(
-                              children: [
-                                      SvgPicture.asset(
-                                e == 'Flutter'
-                                    ? 'assets/icons/flut.svg'
-                                    : e == 'Api integration'
-                                        ? 'assets/icons/api.svg'
-                                        : 'assets/icons/firebase.svg',
-                                color: e == 'Flutter'
-                                    ? Colors.blue
-                                    : e == 'Api integration'
-                                        ? Colors.white
-                                        : Colors.yellow,
-                                height: 20,
-                                width: 15,
-                              ),
-                              const SizedBox(width: 5,),
-                                Text(e,
-                                    style: TextStyle(
-                                      color: isHover
-                                          ? whiteColor
-                                          : theme.textColor,
-                                    )),
-                              ],
-                            ))
-                        .toList()),
-              )
           ],
         ),
       ),

@@ -37,9 +37,9 @@ class _PortfolioMobileTabState extends State<PortfolioMobileTab> {
             child: ProjectCard(project: projectUtils[i]),
           ),
           options: CarouselOptions(
-            height: height * 0.4,
-            autoPlay: false,
-            autoPlayInterval: const Duration(seconds: 200),
+            height: height * 0.7,
+            autoPlay: true,
+            autoPlayInterval: const Duration(minutes: 2),
             enlargeCenterPage: true,
             autoPlayCurve: Curves.fastOutSlowIn,
             autoPlayAnimationDuration: const Duration(milliseconds: 800),

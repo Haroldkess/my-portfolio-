@@ -30,8 +30,8 @@ class _ServiceMobileState extends State<ServiceMobile> {
           options: CarouselOptions(
             viewportFraction: 0.6,
             height: 300,
-            autoPlay: false,
-            autoPlayInterval: const Duration(seconds: 200),
+            autoPlay: true,
+            autoPlayInterval: const Duration(seconds: 2),
             enlargeCenterPage: true,
             autoPlayCurve: Curves.fastOutSlowIn,
             autoPlayAnimationDuration: const Duration(milliseconds: 800),

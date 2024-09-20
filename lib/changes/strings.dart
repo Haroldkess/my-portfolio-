@@ -3,26 +3,25 @@ String hellotag = '''Hi there, Welcome to My Space  ''';
 String yourname = "I'm Harold Osuji,";
 // String hometitle2 = "A Mobile Application\nDeveloper";
 
-String animationtxt1 = " Mobile Application Developer";
-String animationtxt2 = " Frontend Developer";
-String animationtxt3 = " Web App Developer";
-String animationtxt4 = " Cloud Engineer";
+String animationtxt1 = " Flutter Developer";
+String animationtxt2 = " Firebase Expert";
+String animationtxt3 = " Frontend Developer";
+String animationtxt4 = " Flutter Consultant";
 
 //
-String contactHeadding = "Let’s try my service now!";
+String contactHeadding = "Hire me now!";
 
 String contactSubHeadding =
-    "Let’s work together and make everything super cute and super useful.";
+    "Let me surpass your imaginations with unmatched creativity and skill.";
 //
-String miniDescription =
-    "Love gaming, learning, public speaking and people.";
+String miniDescription = "Love people, Public speaking and meditating.";
 
 String servicesSubHeading =
-    "Flutter Developer for about 5years. Since the beginning of my journey as a Front-end developer, I've worked in startups and collaborated with talented people to create digital products for both business and consumer use. I offer a wide range of services including , front-end development, Api-Integration, Cloud services, brand identity definition and teaching.";
+    "I offer a wide range of expertise in service including , Mobile app development, Web app development, Restful Api-Integration, Cloud services, Git.";
 //
 
 String protfolioSubHeading =
-    "Since the beginning of my journey as a developer, I have created digital products for business, consumer use and have done some personal projects. This is a little bit.";
+    "Here are some of my projects.... some listed below are private contributions";
 const String aboutMeHeadline =
     'I\'m Sudesh Bandara, a Mobile App developer, Web developer and UI designer.';
 
