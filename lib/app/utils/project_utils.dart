@@ -17,12 +17,21 @@ class ProjectUtils {
 
 List<ProjectUtils> projectUtils = [
   ProjectUtils(
+    banners: 'assets/imgs/24.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'MSGist',
+    description:
+        'MSGist is an offline CBT practice software that helps candidates practice, prepare and test their readiness for the JAMB CBT exams.',
+    links:
+        'https://play.google.com/store/apps/details?id=com.msgist.app.utme&hl=es_419',
+  ),
+  ProjectUtils(
     banners: 'assets/imgs/23.png',
     icons: 'assets/imgs/flutter.png',
-    titles: 'Nervus',
+    titles: 'Nervus AI',
     description:
         'Spread kindness everyday. Capture, verify, and inspire positivity worldwide.',
-    links: 'com.vigortechapp.nervus',
+    links: 'https://saveus-12565.web.app/',
   ),
   ProjectUtils(
     banners: 'assets/imgs/11.png',
@@ -33,12 +42,20 @@ List<ProjectUtils> projectUtils = [
     links: 'https://apps.apple.com/us/app/storyy/id1615063445',
   ),
   ProjectUtils(
+    banners: 'assets/imgs/25.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'Exam Scholars',
+    description:
+        'Exam Scholars is a Desktop and mobile  CBT practice software that helps prepare students for the JAMB CBT exams.',
+    links: 'https://examscholars.com/',
+  ),
+  ProjectUtils(
     banners: 'assets/imgs/22.png',
     icons: 'assets/imgs/flutter.png',
     titles: 'Rybble',
     description:
         'Rybble is the new age random chat application. Its next generation algorithm helps people connect with the ones they want to connect with.',
-    links: 'https://play.google.com/store/apps/details?id=chat.rybble',
+    links: upwork,
   ),
   ProjectUtils(
     banners: 'assets/imgs/18.png',
@@ -54,7 +71,8 @@ List<ProjectUtils> projectUtils = [
     titles: 'Macanacki (Social networking)',
     description:
         'A social app, where connection meets simplicity. The app brings people together in a seamless and intuitive way.',
-    links: 'https://apps.apple.com/us/app/macanacki/id6448659521',
+    links:
+        'https://play.google.com/store/apps/details?id=com.thomas.macanacki&hl=es_419',
   ),
   ProjectUtils(
     banners: 'assets/imgs/20.png',
