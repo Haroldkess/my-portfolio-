@@ -40,7 +40,7 @@ class ProjectCardState extends State<ProjectCard> {
           Container(
             margin: EdgeInsets.symmetric(horizontal: 1.w),
             width: Responsive.isDesktop(context) ? 30.w : 70.w,
-            height: 36.h,
+            height: 36.h * 1.2,
             decoration: BoxDecoration(
               gradient: isHover ? pinkpurple : grayBack,
               borderRadius: BorderRadius.circular(10),

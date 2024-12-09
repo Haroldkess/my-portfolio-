@@ -17,6 +17,14 @@ class ProjectUtils {
 
 List<ProjectUtils> projectUtils = [
   ProjectUtils(
+    banners: 'assets/imgs/26.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'Use Puffer',
+    description:
+        'Puffer is an innovative platform designed to connect businesses with exceptional talent, bridging the gap between unique skills and project needs.',
+    links: 'https://play.google.com/store/apps/details?id=com.usepufferapp',
+  ),
+  ProjectUtils(
     banners: 'assets/imgs/24.png',
     icons: 'assets/imgs/flutter.png',
     titles: 'MSGist',
@@ -32,6 +40,14 @@ List<ProjectUtils> projectUtils = [
     description:
         'Spread kindness everyday. Capture, verify, and inspire positivity worldwide.',
     links: 'https://saveus-12565.web.app/',
+  ),
+  ProjectUtils(
+    banners: 'assets/imgs/27.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'Quickshop ',
+    description:
+        'Quickshop is an online marketplace connecting verified merchants with shoppers who value convenience, authenticity, and affordability.',
+    links: 'https://play.google.com/store/apps/details?id=com.app.owlet',
   ),
   ProjectUtils(
     banners: 'assets/imgs/11.png',

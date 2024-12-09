@@ -1,6 +1,6 @@
 // CV
 const String resume =
-    'https://drive.google.com/file/d/1yf8IhFGJWmeIH_UkPf-uROpfboyOQd-R/view?usp=sharing';
+    'https://drive.google.com/file/d/15ipeWKVrw_jlGlSwU8rMFkTnopmSZudR/view?usp=sharing';
 
 // Github Link
 const String gitHub = 'https://github.com/Haroldkess';
@@ -33,6 +33,6 @@ const String profileImage =
 // Github Link
 const String fiverr = 'https://www.fiverr.com/sudeshnb';
 // Github Link
-const String upwork = 'https://www.upwork.com/freelancers/~013227318b98c88fb6?s=1110580755057594368';
+const String upwork = 'https://www.upwork.com/freelancers/~013227318b98c88fb6';
 // Github Link
 const String whatsapp = 'https://api.whatsapp.com/send?phone=08070578450';

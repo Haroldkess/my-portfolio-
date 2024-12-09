@@ -28,9 +28,10 @@ class _ServiceCardState extends State<_ServiceCard> {
         }
       },
       child: Container(
-        width: Responsive.isTablet(context) ? 400 : 300,
+        width: Responsive.isTablet(context) ? 200 : 200,
         // height: AppDimensions.normalize(100),
-        padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 20.0),
+        padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
+        alignment: Alignment.center,
         decoration: BoxDecoration(
           // gradient: isHover ? pinkpurple : grayBack,
           gradient: isHover ? pinkpurple : theme.serviceCard,
@@ -52,7 +53,7 @@ class _ServiceCardState extends State<_ServiceCard> {
                 style: TextStyle(
                   color: isHover ? whiteColor : theme.textColor,
                 )),
-            Space.y(1.w)!,
+            // Space.y(1.w)!,
             // Text(
             //   widget.service.description,
             //   textAlign: TextAlign.center,
@@ -62,7 +63,7 @@ class _ServiceCardState extends State<_ServiceCard> {
             //     fontSize: 13,
             //   ),
             // ),
-            Space.y(2.w)!,
+            // Space.y(2.w)!,
           ],
         ),
       ),

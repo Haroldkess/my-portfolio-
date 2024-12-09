@@ -53,6 +53,7 @@ dependencies:
   # flutter_html: any
   # url_strategy: ^0.2.0
   universal_html: ^2.0.4
+  flutter_native_splash: ^2.4.1
 
 dev_dependencies:
   flutter_test:
@@ -67,7 +68,10 @@ dev_dependencies:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
-
+flutter_native_splash:
+   image: "assets/imgs/dev_round.png"
+   color: "#1E1E28"
+   web: true 
 # The following section is specific to Flutter packages.
 flutter:
 

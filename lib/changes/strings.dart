@@ -1,4 +1,4 @@
-String hellotag = '''Hi there, Welcome to My Space  ''';
+String hellotag = '''Welcome to My Space  ''';
 
 String yourname = "I'm Harold Osuji,";
 // String hometitle2 = "A Mobile Application\nDeveloper";
@@ -18,7 +18,7 @@ String contactHeadding = "Hire me now!";
 String contactSubHeadding =
     "Let me surpass your imaginations with unmatched creativity and skill.";
 //
-String miniDescription = "Professional, methodical, and a Good comunicator.";
+String miniDescription = "Professional, methodical, and a Good communicator.";
 
 String servicesSubHeading =
     "I offer a wide range of expertise in service including , Mobile app development, Desktop app development, Web app development, Restful Api-Integration, and much more!.";
